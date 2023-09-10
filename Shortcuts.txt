@@ -1,0 +1,20 @@
+ATAJOS PARA VSC
+Abrir archivo CTRL+O
+abrir carpeta CTRL+K+CTRL+O
+guardar archivo CTRL+S
+crear un nuevo archivo CTRL N
+cerrar archivo abierto CTRL W
+CTRL Z para deshacer, y CTRL Y para rehacer
+CTRL F para buscar en archivo abierto, y CTRL H para reemplazar
+CTRL SHIFT F para buscar en archivos
+CTRL A para seleccionar todo
+
+ABRIR PALETA DE COMANDOS CTRL SHIFT P
+CTRL SHIFT D para acceder a debug
+
+ABRIR TERMINAL INTEGRADO CTRL SHIFT Ñ
+
+CTRL L para seleccionar toda la linea 
+
+ACTIVAR EL GO LIVE ALT L O 
+CERRAR EL GO LIVE ALT L C
