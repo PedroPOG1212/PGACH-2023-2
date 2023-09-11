@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <p class=titulopagina>
+        <title>Cadidatos al oscars 2050</title>
+    </p>
+</head>
+<body>
+    <h1>Candidatos al oscars con arreglos</h1>
+    <script type="text/javascript">
+        var peliculas= new Array();
+        peliculas[0]="La Naranja Mecánica";
+        peliculas[1]="joselito joselito";
+        peliculas[2]="rocky 1";
+        peliculas[3]="rocky 2";
+        peliculas[4]="American Pshyco";
+        peliculas[5]="a todo gas";
+        peliculas.sort();
+        for(var i=0; i<peliculas.length;i++){
+            document.write(peliculas[i]+"<br>");
+        }
+    </script>
+</body>
+</html>

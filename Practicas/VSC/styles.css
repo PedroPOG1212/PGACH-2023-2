@@ -1,0 +1,44 @@
+html,body{
+    background-color: rgb(143, 143, 143);
+    height: 100%;
+    width: 100%;
+
+}
+#colorfuente
+{
+    color:black;
+
+}
+#contenedor{
+    background-color: antiquewhite;
+    border:2px solid #012111;
+    text-align: center;
+    font-size: 30px;
+}
+#cabecera{
+    background-color: rgb(248, 240, 255);
+    height: 20%;
+    text-align: center;
+}
+#menu{
+    background-color: rgb(245, 221, 220);
+    height: 50%;
+}
+#izquierda{
+    height: 50%;
+    background-color: rgb(181, 181, 181);
+    float:left;
+    width: 50%;
+}
+#derecha{
+    height: 50%;
+    background-color: rgb(98, 80, 110);
+    float:right;
+    width: 50%;
+}
+#pie{
+    height: 20%;
+    background-color: rgb(246, 240, 255);
+    clear:both;
+
+}

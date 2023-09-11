@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(to right, #000000, #52495b, #d3b1e6);
+    margin: 0;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.country-container {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    color: rgb(66, 64, 64);
+}
+
+select{
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgba(91, 17, 218, 0.981);
+    outline: none;
+    color: rgb(66, 64, 64);
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(82, 0, 79, 0.989);
+    background-color: #edd5ee;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    max-width: 300px;
+}
+
+h1 {
+    color: #e2d1f0;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #594870;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgba(91, 17, 218, 0.981);
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+.dial-code {
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+        max-width: 200px;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px 0 rgba(32, 1, 85, 0.981);
+        outline: none;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.phone-button {
+    background-color: #ae8afa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.phone-button:hover {
+    background-color: #8d63c5;
+}
+
+.validation-result {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(7, 89, 7);
+}
+
+.dial-code {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #813faa;
+}
