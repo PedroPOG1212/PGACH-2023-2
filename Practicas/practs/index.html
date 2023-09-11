@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi primera practica con JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cabecera">ENCABEZADO</div>
+        <div id="menu">MENU</div>
+        <div id="izquierda">
+        </div>
+        <div id="derecha">CICLO EN LA UDEA</div>
+             <!-- SLIDE 29, 1.b - instruccion practicas html -->
+            <h1 id="colorfuente">Hola mundo con mi primer JavaScript</h1>
+            <script type="text/JavaScript" src="script.js">
+            </script>
+            <script>
+                const miTitulo=document.querySelector(`h1`)//a la constante miTitulo se le asigna la INTERFASE document de la cual usamos el metodo querySelector que seleccionara un elemento en el documento que en este caso es el h1, asi, la constante mititulo almacenara una referencia al primer h1 que encuentre
+                miTitulo.textContent="Bienvenidos al ciclo 4 con la UdeA"//de la variable uso el metodo textcontent para mostrar el contenido de la variable
+                alert("semana 1 del ciclo 4")
+            </script>
+            <h2>My first JavaScript</h2>
+            <button type="button" onclick="document.getElementById(`demo`).innerHTML=Date()">
+            Hacer click para mostrar fecha y hora.
+            </button><!--onclick es un evento que me determina que algo suceda para poder mostrar lo relacionado a este evento, el boton asigna al evento onclick la interface document  con el metodo getElementById con referencia a demo, unas lineas mas abajo, devolviendo asi en ese sitio el inner de una fecha que estoy insertando en el html-->   
+            <p id="demo"></p> 
+        <div id="pie">PIE</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+html,body{
+    background-color: rgb(163, 197, 186);
+    height: 100%;
+    width: 100%;
+
+}
+#colorfuente
+{
+    color:black;
+
+}
+#contenedor{
+    background-color: antiquewhite;
+    border:2px solid #012111;
+    text-align: center;
+    font-size: 30px;
+}
+#cabecera{
+    background-color: aliceblue;
+    height: 20%;
+    text-align: center;
+}
+#menu{
+    background-color: beige;
+    height: 50%;
+}
+#izquierda{
+    height: 50%;
+    background-color: bisque;
+    float:left;
+    width: 50%;
+}
+#derecha{
+    height: 50%;
+    background-color: rgb(110, 97, 80);
+    float:right;
+    width: 50%;
+}
+#pie{
+    height: 20%;
+    background-color: aliceblue;
+    clear:both;
+
+}

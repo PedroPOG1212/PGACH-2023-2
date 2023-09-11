@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <p class=titulopagina>
+        <title>Cadidatos al oscars 2050</title>
+    </p>
+</head>
+<body>
+    <h1>Candidatos al oscars con arreglos</h1>
+    <script type="text/javascript">
+        var peliculas= new Array();
+        peliculas[0]="la gran almendra";
+        peliculas[1]="sin platanos maduros no hay paraiso";
+        peliculas[2]="ayuda, hay un alien afuera, Y ES SOCIALISTA";
+        peliculas[3]="los caballeros las prefieren duras";
+        peliculas[4]="la revolucion del simio 34";
+        peliculas[5]="rapidos y furiosos 20- un viaje al agujero negro";
+        peliculas.sort();
+        for(var i=0; i<peliculas.length;i++){
+            document.write(peliculas[i]+"<br>");
+        }
+    </script>
+</body>
+</html>
