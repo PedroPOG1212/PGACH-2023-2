@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <p class=titulopagina>
+        <title>Serie de fibonacci</title>
+    </p>
+</head>
+<body>
+    <h1>Serie de fibonacci</h1>
+    <script type="text/JavaScript" src="scriptfibo.js"></script>
+    <div id="fibocodeune">
+    <script>
+        var entrada= window.prompt("cantidad de datos a desplegar:","0");//pido la entrada donde almacenare el numero de datos a contar en la serie
+        var a =parseFloat(entrada);//convierto el string en un float
+        var anterior,nuevo,aux;//declaro las variables que me ayudaran a hacer las cuentas, anterior usada para el numero anterior en la serie, nuevo para el numro nuevo calculado y aux para guardar valores importantes en el ciclo
+        if(a<=0)
+            document.write("el dato debe ser positivo");//se muestra que el dato debe ser positivo si ingreso 0 o un numero menor a cero
+        else{
+            anterior=0;//el numero anterior es asignado a 0
+            nuevo=1;//a nuevo se le asigna el valor 1
+            document.write("La serie de fibonacci es: ")//muestro que la serie empezo
+            for(i=1; i<=a ; i++)//mientras el valor i sea menor o igual a mi total de la serie
+            {
+                aux=anterior;//el aux es igual al numero anterior
+                nuevo += anterior;//el numero nuevo es sumar a ese 1 asignado antes el valor del numero anterior en la serie
+                document.write(nuevo+",");//DOM usa el metodo escribir para que en el documento HTML me salga el numero nuevo y espacio para otro numero hasta que acabe la serie
+                anterior=nuevo;//el numero anterior ahora es igual al nuevo numero
+            }//se repite el ciclo hasta acabar el numero total de la serie
+        }
+        
+    </script>
+    </div>
+    <button type="button" onclick="fununofibo(a)">Click aqui para tener una serie secundaria de fibonacci</button>
+    <button type="button" onclick="fundosfibo(a)">Click aqui para tener una serie secundaria de fibonacci</button>
+</body>
+</html>

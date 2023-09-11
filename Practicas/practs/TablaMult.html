@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de la tabla de multiplicar completo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <script type="text/JavaScript" src="script.js"></script>
+    <div id="contenedor">
+        <div id="cabecera">ENCABEZADO</div>
+        <div id="menu">MENU</div>
+        <div id="izquierda">
+            TABLA DE MULTIPLICAR
+            <div id="data"><!--es importante hacer esta div con el codigo id, porque en el script cuando vaya a mostrar el resultado calculado por la funcion, busca en el DOM esa id para poder asemejarla al contenido-->
+                <script>
+                    var num=window.prompt("ingrese el valor a calcular su tabla","0")//pide el numero a sacar la tabla a travez de la ventana emergente promtp
+                    var numcalc=parseFloat(num)//el numero ingresado es almacenado en una nueva variable que usa el parseFloat para que la cadena ingresada sea si o si un decimal
+                </script>
+                <button type="button" onclick="calculartabla(numcalc)">click para mostrar la tabla </button>
+                    <!-- a travez del boton se registra la accion que me da pie a usar la funcion calcular tabla almacenada en script.js al darle click al boton mostrar tabla -->
+                </div>
+        </div>
+        <div id="derecha">DERECHA</div>
+        <div id="pie">PIE</div>
+    </div>
+</body>
+</html>

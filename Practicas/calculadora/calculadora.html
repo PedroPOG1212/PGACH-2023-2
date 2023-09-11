@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA HDZ</title>
+    <link rel="stylesheet" type="text/css" href="stylescalc.css">
+    <script type="text/javascript" src="scriptcalc.js"></script>
+    <script src="https://kit.fontawesome.com/dd056e6c18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="calculator">
+              <h1 class="titulo">calculadora</h1>
+            <div class="display">
+                <input type="text" id="result" readonly>
+            </div>
+            <div class="buttons">
+                <button class="operator" onclick="clearDisplay()">C</button>
+                <button class="operator" onclick="backspace()">space</button>
+                <button class="operator" onclick="appendToDisplay('*')">*</button>
+                <button class="operator" onclick="appendToDisplay('/')">/</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button class="operator" onclick="appendToDisplay('+')">+</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button class="operator" onclick="appendToDisplay('-')">-</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button class="operator" id="equals" onclick="calculate()">=</button>
+                <br />
+                <button id="zero" onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+            </div>
+            <div class="container-theme" >
+                <button class="select-theme" role="button" onclick="toggleTheme()" link rel="stylesheet" type="text/css" href="stylescalc.css">
+                <input type="checkbox" id="toggle"/>
+                <label for="toggle" id="labelToggle">
+                    <i class="fa-solid fa-moon">
+                    </i>
+                </label>
+                </button>
+            </div>
+        </div>
+        <!-- <div id="cabecera">ENCABEZADO</div>
+        <div id="menu">MENU</div>
+        <div id="izquierda">IZQUIERDA</div>
+        <div id="derecha">DERECHA</div>
+        <div id="pie">PIE</div> -->
+    </div>
+</body> 
+</html>
