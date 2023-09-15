@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de Usuario</title>
+    <link rel="stylesheet" href="stylesreg.css">
+</head>
+<body>
+    <div class="user-story">
+        <h2>Historia de Usuario 1</h2>
+        <button id="editBtn">Editar</button>
+        <div class="details">
+            <p><strong>Número:</strong> 001</p>
+            <p><strong>Nombre:</strong> Registro de Nuevo Usuario</p>
+            <p><strong>Como:</strong> Usuario Nuevo</p>
+            <p><strong>Quiero:</strong> Registrarme en MeowMatch</p>
+            <p><strong>Para:</strong> Poder crear un perfil para mi gato y empezar a conocer otros gatos y sus dueños.</p>
+            <p><strong>Requisitos de Aceptación:</strong></p>
+            <ul>
+                <li>Debo poder proporcionar mi nombre de usuario, contraseña y correo electrónico.</li>
+                <li>Después de registrarme, se debe crear un perfil predeterminado para mi gato con información básica.</li>
+            </ul>
+        </div>
+        <h3>Formulario de Registro:</h3>
+        <form id="registrationForm">
+            <label>Nombre de usuario: <input type="text" name="username"></label>
+            <label>Correo electrónico: <input type="email" name="email"></label>
+            <label>Contraseña: <input type="password" name="password"></label>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="scriptreg.js"></script>
+</body>
+</html>
