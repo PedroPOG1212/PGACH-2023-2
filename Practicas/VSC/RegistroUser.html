@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,19 +9,6 @@
 <body>
     <div class="user-story">
         <h2>Historia de Usuario 1</h2>
-        <button id="editBtn">Editar</button>
-        <div class="details">
-            <p><strong>Número:</strong> 001</p>
-            <p><strong>Nombre:</strong> Registro de Nuevo Usuario</p>
-            <p><strong>Como:</strong> Usuario Nuevo</p>
-            <p><strong>Quiero:</strong> Registrarme en MeowMatch</p>
-            <p><strong>Para:</strong> Poder crear un perfil para mi gato y empezar a conocer otros gatos y sus dueños.</p>
-            <p><strong>Requisitos de Aceptación:</strong></p>
-            <ul>
-                <li>Debo poder proporcionar mi nombre de usuario, contraseña y correo electrónico.</li>
-                <li>Después de registrarme, se debe crear un perfil predeterminado para mi gato con información básica.</li>
-            </ul>
-        </div>
         <h3>Formulario de Registro:</h3>
         <form id="registrationForm">
             <label>Nombre de usuario: <input type="text" name="username"></label>
@@ -31,5 +18,29 @@
         </form>
     </div>
     <script src="scriptreg.js"></script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de nuevo usuario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de nuevo usuario</h1>
+    <form action="/register" method="post">
+      <label for="username">Nombre de usuario</label>
+      <input type="text" name="username" id="username">
+      <label for="password">Contraseña</label>
+      <input type="password" name="password" id="password">
+      <label for="email">Correo electrónico</label>
+      <input type="email" name="email" id="email">
+      <input type="submit" value="Registrarse">
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
