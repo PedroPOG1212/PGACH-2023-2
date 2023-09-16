@@ -15,7 +15,7 @@ let toggle = document.getElementById("toggle");
 let labelToggle = document.getElementById("labelToggle");
 
 if (toggle && labelToggle) {
-  toggle.addEventListener("change", toggleTheme());
+  toggle.addEventListener("change", toggleTheme);
 }
 //-------funciones de la calculadora
 function calculate() {
@@ -26,10 +26,6 @@ function calculate() {
     result.value = "Digite una opción válida";
     return;
   }
-  // if (isValidExpression(expression)) {
-  //   result.value = "Expresión Inválida";
-  //   return clearDisplay();
-  // }
   try {
     const resultado = eval(expression);
     if (isNaN(resultado)) {
@@ -44,13 +40,6 @@ function calculate() {
     result.value = "Error";
     return clearDisplay();
   }
-  // try {
-  //   result.value = eval(expression);
-  // } catch (error) {
-  //   result.value = "Error";
-  //   return clearDisplay();
-  // }
-  //Eliminar el ultimo caracter
 }
 function clearDisplay() {
   document.getElementById("result").value = "";
