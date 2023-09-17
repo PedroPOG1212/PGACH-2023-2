@@ -1,0 +1,168 @@
+.cabecera{
+    width: 1440px;
+    height: 193px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFBF23;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Crea tres columnas de tamaño igual */
+    grid-gap: 10px; /* Espacio entre las celdas de la cuadrícula */
+    padding: 10px; /* Relleno interior del contenedor */
+}
+
+.imagenlogo{
+    width: 187.826px;
+    height: 164.846px;
+    flex-shrink: 0;
+    color:#000000;
+    grid-column: 1/1;
+}
+
+.titulologo{
+    /* color: #000;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; */
+    grid-column: 2/3;
+}
+.botones{
+
+}
+.registrarse{
+    /*layout del boton*/
+    width: 180px;
+    height: 72px;
+    flex-shrink: 0;
+    /*styles del boton*/
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /*laayout del texto del boton*/
+    width: 148.571px;
+    height: 37.479px;
+    flex-shrink: 0;
+    /*styles del texto del boton*/
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.ingresar{
+    /*layout del boton*/
+    width: 177px;
+    height: 73px;
+    flex-shrink: 0;
+    /*styles del boton*/
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /*laayout del texto del boton*/
+    width: 146.095px;
+    height: 38px;
+    flex-shrink: 0;
+    /*styles del texto del boton*/
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.contenido{
+    width: 1440px;
+    height: 571.215px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: 1px solid #000;
+}
+
+#tresc{
+    width: 272px;
+    height: 159.865px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#lema{
+    width: 755px;
+    height: 72.921px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#introduccion{
+    width: 734px;
+    height: 106.577px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#imagenfondo{
+    width: 612px;
+    height: 612px;
+    flex-shrink: 0;
+}
+
+.pie{
+    width: 1440px;
+    height: 240px;
+    flex-shrink: 0;
+
+    border: 1px solid #000;
+    background: #FFBF23;
+}
+
+.infopiedepagina{
+
+}
+.contactoinfo{
+
+}
+.envelope{
+    width: 32.624px;
+    height: 23.396px;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Font Awesome 5 Free;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#contacto{
+    width: 113.164px;
+    height: 27.139px;
+    flex-shrink: 0;
+    
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
