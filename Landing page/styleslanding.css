@@ -1,0 +1,29 @@
+.cabecera{
+    width: 1440px;
+    height: 193px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFBF23;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Crea tres columnas de tamaño igual */
+    grid-gap: 10px; /* Espacio entre las celdas de la cuadrícula */
+    padding: 10px; /* Relleno interior del contenedor */
+}
+
+.imagenlogo{
+    width: 187.826px;
+    height: 164.846px;
+    flex-shrink: 0;
+    color:#000000;
+    grid-column: 1/1;
+}
+
+.titulologo{
+    /* color: #000;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; */
+    grid-column: 2/3;
+}
