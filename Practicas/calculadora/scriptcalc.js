@@ -15,10 +15,32 @@ let toggle = document.getElementById("toggle");
 let labelToggle = document.getElementById("labelToggle");
 
 if (toggle && labelToggle) {
-  toggle.addEventListener("change", toggleTheme());
+  toggle.addEventListener("change", toggleTheme);
 }
-//funciones de la calculadora
-
+//-------funciones de la calculadora
+function calculate() {
+  const result = document.getElementById("result");
+  let expression = result.value.trim(); // Eliminar espacios al inicio y al final de la expresión
+  if (expression === "") {
+    // Si la expresión está vacía, mostrar un mensaje en la pantalla 
+    result.value = "Digite una opción válida";
+    return;
+  }
+  try {
+    const resultado = eval(expression);
+    if (isNaN(resultado)) {
+      // Si el resultado no es un número válido, mostrar un mensaje de error
+      result.value = "Error";
+    } else {
+      // Mostrar el resultado en la pantalla
+      result.value = resultado;
+    }
+  } catch (error) {
+    // Si hay un error en la evaluación, mostrar un mensaje de error
+    result.value = "Error";
+    return clearDisplay();
+  }
+}
 function clearDisplay() {
   document.getElementById("result").value = "";
 }
@@ -30,27 +52,7 @@ function isValidExpression(expression) {
   const pattern = /[\+\-\*\/]{2,}/;
   return !pattern.test(expression);
 }
-
-function calculate() {
-  const result = document.getElementById("result");
-  let expression = result.value.trim(); // Eliminar espacios al inicio y al final de la expresión
-  if (expression === "") {
-    // Si la expresión está vacía, mostrar un mensaje en la pantalla result.value = "Digite una opción válida";
-    return;
-  }
-  if (isValidExpression(expression)) {
-    result.value = "Expresión Inválida";
-    return clearDisplay();
-  }
-  try {
-    result.value = eval(expression);
-  } catch (error) {
-    result.value = "Error";
-    return clearDisplay();
-  }
-  //Eliminar el ultimo caracter
-
-  function backspace() {
+function backspace() {
     const result = document.getElementById("result");
     let expression = result.value;
     if (expression.length > 0) {
@@ -59,4 +61,4 @@ function calculate() {
       result.value = expression;
     }
   }
-}
+

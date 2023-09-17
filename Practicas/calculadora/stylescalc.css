@@ -96,7 +96,7 @@ button{
 }
 .dark-theme{
     background-color: #333;
-    color:#f0f0f0;
+    color:#810000;
 }
 .dark-theme .select-theme{
     filter: invert(1);
