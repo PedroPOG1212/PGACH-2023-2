@@ -22,7 +22,30 @@ body{
 #logocabecera{
 
 }
+.butonhome{
+    /* position:absolute;
+    top: 48px;
+    bottom:1000px;
+    left: 97px;
+    width: 116px;
+    height: 111px;
+    flex-shrink: 0;
+    color: #FFBF23; */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFBF23;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFBF23;
+    border-radius: 50%; /* Establece el radio al 50% para hacerlo redondo */
+    font-weight: bold;
+    width: 50px; /* Ancho deseado para el botón redondo */
+    height: 50px; /* Altura deseada para el botón redondo */
+    text-align: center;
+    line-height: 50px; /* Alinea verticalmente el contenido */
+}
 
+}
 .contenido{
 
 }
