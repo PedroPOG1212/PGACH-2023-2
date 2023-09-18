@@ -55,5 +55,14 @@ body{
     height: 518.903px; /* Altura deseada para la imagen */
     z-index: -1; /* Coloca la imagen detrás del contenedor */
     /* Otros estilos que desees aplicar a la imagen */
-
+}
+#gatotrasero2{
+    position:absolute;
+    top: 1090.63px;
+    bottom:1300.00px;
+    left: 930.44px;
+    width: 601.563px; /* Ancho deseado para la imagen */
+    height: 518.903px; /* Altura deseada para la imagen */
+    z-index: -1; /* Coloca la imagen detrás del contenedor */
+    /* Otros estilos que desees aplicar a la imagen */
 }
