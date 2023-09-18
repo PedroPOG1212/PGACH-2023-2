@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en el eje X */
+    align-items: center; /* Centra verticalmente en el eje Y */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura de la ventana gráfica */
+    background-color: beige;
+    
+}
+.contenedor{
+    padding-left: 84px;
+    padding-right: 80px;
+    padding-bottom: 23px; 
+    width: 843.595px;
+    height: 1500.786px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFBF23;    
+}
+.cabecera{
+
+}
+#logocabecera{
+
+}
+
+.contenido{
+
+}
+#terminosycondiciones{
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.listaterminoscondiciones{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.piedody{
+    position: ;
+}
+#gatotrasero1{
+    position:absolute;
+    top: 1090.63px;
+    bottom:1300.00px;
+    left: 0px;
+    width: 601.563px; /* Ancho deseado para la imagen */
+    height: 518.903px; /* Altura deseada para la imagen */
+    z-index: -1; /* Coloca la imagen detrás del contenedor */
+    /* Otros estilos que desees aplicar a la imagen */
+
+}
