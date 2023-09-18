@@ -155,14 +155,50 @@
     line-height: normal;
 }
 #contacto{
-    width: 113.164px;
-    height: 27.139px;
+    display: flex;
+    text-align: center;
+}
+.contactolista{
+    width: 320px;
+    height: 139px;
     flex-shrink: 0;
-    
+
     color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
+    line-height: normal;
+}
+/*---------*/
+.oficinasinfo{
+}
+
+#direccioncede{
+    width: 300px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#atencionalcliente{
+    width: 218px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+#infoatencioncliente{
+    width: 218px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
