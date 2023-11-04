@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - MeowMatch</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="cabeza">
+            <button class="boton" role="button">
+                <a href="index.html" target="_blank" id="butonhome">
+                    <img src ="images/gatohouse.jpg" alt="Home Icon" width="60" height="60">
+                </a>
+            </button>
+        </div>
+        <div class="registro-container">
+            <img src="images/TITULO.png" alt="Logo MeowMatch" class="logo"> <!-- Logo de MeowMatch -->
+            <div class="container-reg">
+                <h1>Ingrese su Información Personal</h1>
+                <form id="registerForm">
+                    <input type="text" placeholder="Nombres completos" required>
+                    <input type="text" placeholder="Apellidos" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                    <input type="text" placeholder="Nombre de usuario" required>
+                    <input type="password" placeholder="Contraseña" requires>
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">Acepto los términos y condiciones</label>
+                    </div>
+                    <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+                    <button type="submit">Registrarme</button>
+                </form>
+            </div>
+        </div>
+        <img src="images/gatotrasero.png" alt="Cola de Gato" class="cat-tail"> <!-- Cola del gato -->
+        <img src="images/gatotrasero.png" alt="Cabeza de Gato" class="cat-head"> <!-- Cabeza del gato -->
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
