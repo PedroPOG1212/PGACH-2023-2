@@ -1,3 +1,6 @@
-$("#click").click(function(){
-    alert("usted ha hecho click en el boton");
+$(function(){
+    $("#click").click(function(){
+        alert("HOLA");
+    });
+
 });
