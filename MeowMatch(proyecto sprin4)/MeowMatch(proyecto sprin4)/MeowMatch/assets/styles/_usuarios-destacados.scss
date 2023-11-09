@@ -1,0 +1,91 @@
+main#usuarios-destacados {
+    section.menu {
+        display: flex;
+        justify-content: center;
+
+        nav {
+            ul {
+                display: flex;
+                list-style: none;
+
+                li {
+
+                    &:not(:last-child) a {
+                        border-right: 1px solid black;
+                    }
+
+                    a {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 20px 50px;
+                            
+                        svg {
+                            animation: grow 1s ease-in;
+                            width: 30px;
+                            height: 30px;
+                            display: block;
+                            margin-bottom: 10px;
+                        }
+    
+                        span {
+                            display: block;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.blanck-space {
+        height: 26vh;
+    }
+
+    section.imagenes-usuarios-destacados {
+
+        > i {
+            background-color: color(srgb 0.0525 0.7961 0.5457);
+            border-radius: 20px 0 20px 0;
+            padding: 10px 50px;
+            font-size: 28px;
+            display: block;
+            width: fit-content;
+            margin-left: 10vw;
+            font-weight: 300;
+        }
+
+        div.imagenes {
+            display: flex;
+            justify-content: center;
+
+            div.usuario-destacado {
+                background-image: url('../layout/usuarios_destacados/frame1.webp');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 80px 60px;
+                height: 150px;
+
+                img {
+                    animation: fadeIn 2s ease-in;
+                    display: block;
+                    max-height: 140px;
+                    max-width: 140px;
+                    margin: 0 auto;
+                    border-radius: 10px;
+                    margin-bottom: 15px;
+                    border: 2px solid black;
+                }
+
+                span {
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
